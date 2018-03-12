@@ -22,7 +22,7 @@ function guess() {
       showAnswer(true);
       showReplay();
     }else if(!getResults(input.value) && attempt.value >= 10){
-      setMessage("You Lose! :()");
+      setMessage("You Lose! :(");
       showAnswer(false);
       showReplay();
     }else{
