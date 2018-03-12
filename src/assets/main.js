@@ -18,11 +18,11 @@ function guess() {
 
 //debugger;
     if(getResults(input.value)){
-      setMessage("You win! :)");
+      setMessage("You Win! :)");
       showAnswer(true);
       showReplay();
     }else if(!getResults(input.value) && attempt.value >= 10){
-      setMessage("You lose! :()");
+      setMessage("You Lose! :()");
       showAnswer(false);
       showReplay();
     }else{
